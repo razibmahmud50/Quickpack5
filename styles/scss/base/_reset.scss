@@ -3,8 +3,6 @@
 // Author:
 // Author URI: https://
 // Version: 1.0
-// Tags: responsive,clean,bootstrap,creative
-// Description: Responsive bootstrap4 template
 
 //Global Style
 html{
@@ -32,8 +30,11 @@ ul{
    list-style: none;
    padding-left: 0;
 }
+span{
+	display: inline-block;
+}
 :focus{
-	box-shadow: none!important;
+	box-shadow: none;
 }
 :disabled {
        cursor: not-allowed;

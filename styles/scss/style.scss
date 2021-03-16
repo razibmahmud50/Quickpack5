@@ -1,14 +1,14 @@
 //global 
-@import 'base/reset';
 @import 'base/variables';
+@import 'base/mixins';
+@import 'base/reset';
 @import 'base/utilities';
 @import 'base/general';
-@import 'base/mixins';
 
 //layout
 @import 'layout/header';
-@import 'layout/footer';
 @import 'layout/sidebar';
+@import 'layout/footer';
 
 //components
 @import 'components/buttons';
