@@ -10,39 +10,39 @@
   border-radius: 5px;
   cursor: pointer;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
   &.btn-primary{
       color:$color-white;
       background: $bg-primary;
-      border: 1px solid $border-primary;
+      border: 1px solid $color-primary;
       &:hover, &:not(:disabled):not(.disabled):active {
         background: $bg-primary;
-        border: 1px solid $border-primary;
+        border: 1px solid $color-primary;
         opacity: 0.9;
         outline: 0;
       }
       &:disabled, &.disabled{
         color:$color-white;
         background: $bg-primary;
-        border: 1px solid $border-primary;
+        border: 1px solid $color-primary;
         opacity: 0.6;
       }
     }
   &.btn-primary-outlined{
       color:$color-primary;
       background: $bg-white;
-      border: 1px solid $border-primary;
+      border: 1px solid $color-primary;
       &:hover, &:not(:disabled):not(.disabled):active {
         background: $bg-primary;
-        border: 1px solid $border-primary;
+        border: 1px solid $color-primary;
         color: $color-white;
         outline: 0;
       }
       &:disabled, &.disabled{
         color:$color-primary;
         background: $bg-white;
-        border: 1px solid $border-primary;
+        border: 1px solid $color-primary;
         opacity: 0.6;
       }
     }
