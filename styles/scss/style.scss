@@ -5,12 +5,19 @@
 @import 'base/utilities';
 @import 'base/generic';
 
-//layout
-@import 'layout/header';
-@import 'layout/sidebar';
-@import 'layout/footer';
+//vendors
+@import 'vendors/bootstrap.scss';
 
 //components
 @import 'components/buttons';
 @import 'components/forms';
 @import 'components/tables';
+
+//layout
+@import 'layout/header';
+@import 'layout/sidebar';
+@import 'layout/footer';
+
+//pages
+@import 'pages/home'
+
