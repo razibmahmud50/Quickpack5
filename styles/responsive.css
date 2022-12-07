@@ -1,20 +1,20 @@
-/*==mobile-device==*/
-@media (max-width: 575px) {
+/*==mobile==*/
+@media (max-width: 767px) {
   
 }
-/*==tablet-device==*/
-@media (min-width: 576px) and (max-width: 767px) {
+/*==tablet==*/
+@media (min-width: 768px) and (max-width: 1023px) {
   
 }
-/*==notebook-device==*/
-@media (min-width: 768px) and (max-width: 991px) {
+/*==tablet-landscape==*/
+@media (min-width: 1024px) and (max-width: 1279px) {
   
 }
-/*==laptop-device==*/
-@media (min-width: 992px) and (max-width: 1199px) {
+/*==Laptop==*/
+@media (min-width: 1280px) and (max-width: 1399px) {
   
 }
-/*==desktop-device==*/
-@media (min-width: 1200px){
+/*==desktop==*/
+@media (min-width: 1400px){
   
 }
